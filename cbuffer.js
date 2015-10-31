@@ -1,5 +1,16 @@
 (function (global) {
+    "use strict";
+    // http://jshint.com/docs/options/
+    // jshint undef:true
+    // jshint unused:true
+    // jshint strict:true
+    // jshint eqnull:true
 
+    /**
+     * @brief CBuffer 
+     *
+     * @return 
+     */
 function CBuffer() {
 	// handle cases where "new" keyword wasn't used
 	if (!(this instanceof CBuffer)) {
